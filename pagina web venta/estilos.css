@@ -1,0 +1,179 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: relative; /* Añadido para posicionar el logo */
+}
+
+.logo-container {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%; /* Hace la imagen circular */
+    border: 2px solid #fff; /* Añade un borde blanco */
+}
+
+section {
+    margin: 20px;
+}
+
+#ofertas {
+    background-color: #ffd700;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.oferta-panel {
+    background-color: #fff;
+    border: 2px solid #f39c12;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+}
+
+#productos {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+#search-bar {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.producto-panel {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.producto-panel img {
+    max-width: 100px;
+    margin-right: 20px;
+    border-radius: 8px;
+}
+
+.producto-panel h3 {
+    margin: 0;
+    flex-grow: 1;
+}
+
+.producto-panel p {
+    transform: translateX(-20px);
+    text-align: left;
+}
+
+
+
+
+.btn-venta {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-venta:hover {
+    background-color: #218838;
+}
+/* Sección de video */
+#video-section {
+    margin: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+#video-section video {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+/* Botones en la sección */
+#buttons-section {
+    margin: 20px;
+    text-align: center;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-form {
+    background-color: #000000;
+    color: #ffff00;
+    border: none;
+    padding: 30px 10px; /* Aumenta el ancho y reduce el largo */
+    border-radius: 8px; /* Mantén el borde redondeado */
+    cursor: pointer;
+    flex-basis: 45%;
+    font-weight: bold; /* Pone las letras en negrita */
+    font-size: 1.5em; /* Haz las letras más grandes */
+    text-transform: uppercase; /* Pone las letras en mayúsculas */
+    letter-spacing: 2px; /* Añade espacio entre las letras para más visibilidad */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Añade una transición suave */
+}
+
+.btn-form:hover {
+    background-color: #252c33;
+    transform: scale(1.05); /* Hace que el botón se agrande un poco al pasar el cursor */
+}
+
+/* Formularios ocultos por defecto */
+.hidden-form {
+    display: none;
+    margin-top: 20px;
+}
+
+.hidden-form label {
+    display: block;
+    margin-top: 10px;
+}
+
+.hidden-form input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.btn-enviar {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.btn-enviar:hover {
+    background-color: #218838;
+}
