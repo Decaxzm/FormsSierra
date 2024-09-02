@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Envío de Paquete</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="logo.png" alt="Logo" class="logo">
+        </div>
+        <h1>Enviar Paquete</h1>
+    </header>
+
+    <section>
+        <form id="formulario-paquete" action="https://formspree.io/f/xqazjapj" method="POST">
+            <label for="remitente">Remitente:</label>
+            <input type="text" id="remitente" name="remitente" required>
+        
+            <label for="receptor">Receptor:</label>
+            <input type="text" id="receptor" name="receptor" required>
+        
+            <label for="correo">Correo:</label>
+            <input type="email" id="correo" name="correo" required>
+        
+            <label for="id-paquete">ID del Paquete:</label>
+            <input type="text" id="id-paquete" name="id-paquete" required>
+
+            <input type="hidden" name="_message" value="Gracias por su tiempo, el paquete será recogido.">
+
+            <button type="submit" class="btn-enviar">Enviar</button>
+        </form>
+    </section>
+</body>
+</html>
