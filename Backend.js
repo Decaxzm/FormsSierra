@@ -3,7 +3,7 @@ document.getElementById('form').addEventListener('submit', function(event) {
 
   const formData = new FormData(this);
 
-  fetch('https://formspree.io/f/xqazjapj', {
+  fetch('https://formspree.io/f/xdknjkyw', {
       method: 'POST',
       body: formData,
       headers: {
@@ -25,7 +25,7 @@ document.getElementById('formulario-link').addEventListener('submit', function(e
 
   const formData = new FormData(this);
 
-  fetch('https://formspree.io/f/[YOUR_FORM_ID]', {
+  fetch('https://formspree.io/f/xdknjkyw', {
       method: 'POST',
       body: formData,
       headers: {
@@ -42,3 +42,4 @@ document.getElementById('formulario-link').addEventListener('submit', function(e
       alert('Hubo un error al enviar el correo.');
   });
 });
+
