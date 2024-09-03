@@ -14,25 +14,32 @@
         <h1>Enviar Link</h1>
     </header>
 
-    <section>
-        <form id="formulario-link" action="https://formspree.io/f/xqazjapj" method="POST">
-            <label for="remitente-link">Remitente:</label>
-            <input type="text" id="remitente-link" name="remitenteLink" required>
-        
-            <label for="receptor-link">Receptor:</label>
-            <input type="text" id="receptor-link" name="receptorLink" required>
-        
-            <label for="correo-link">Correo:</label>
-            <input type="email" id="correo-link" name="correoLink" required>
-        
-            <label for="link">Link:</label>
-            <input type="url" id="link" name="link" required>
-        
-            <label for="cantidad">Cantidad:</label>
-            <input type="number" id="cantidad" name="cantidad" required>
-        
+    <section class="form-section">
+        <form id="formulario-link" action="https://formspree.io/f/xdknjkyw" method="POST">
+            <div class="form-group">
+                <label for="remitente-link">Remitente:</label>
+                <input type="text" id="remitente-link" name="remitenteLink" required>
+            </div>
+            <div class="form-group">
+                <label for="receptor-link">Receptor:</label>
+                <input type="text" id="receptor-link" name="receptorLink" required>
+            </div>
+            <div class="form-group">
+                <label for="correo-link">Correo:</label>
+                <input type="email" id="correo-link" name="correoLink" required>
+            </div>
+            <div class="form-group">
+                <label for="link">Link:</label>
+                <input type="url" id="link" name="link" required>
+            </div>
+            <div class="form-group">
+                <label for="cantidad">Cantidad:</label>
+                <input type="number" id="cantidad" name="cantidad" required>
+            </div>
+            
             <button type="submit" class="btn-enviar">Enviar</button>
         </form>
     </section>
 </body>
 </html>
+
