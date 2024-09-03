@@ -15,23 +15,33 @@
     </header>
 
     <section>
-        <form id="formulario-paquete" action="https://formspree.io/f/xqazjapj" method="POST">
-            <label for="remitente">Remitente:</label>
-            <input type="text" id="remitente" name="remitente" required>
+        <form id="formulario-paquete" action="https://formspree.io/f/xdknjkyw" method="POST">
+            <div class="form-group">
+                <label for="remitente">Remitente:</label>
+                <input type="text" id="remitente" name="remitente" required>
+            </div>
         
-            <label for="receptor">Receptor:</label>
-            <input type="text" id="receptor" name="receptor" required>
+            <div class="form-group">
+                <label for="receptor">Receptor:</label>
+                <input type="text" id="receptor" name="receptor" required>
+            </div>
         
-            <label for="correo">Correo:</label>
-            <input type="email" id="correo" name="correo" required>
+            <div class="form-group">
+                <label for="correo">Correo:</label>
+                <input type="email" id="correo" name="correo" required>
+            </div>
         
-            <label for="id-paquete">ID del Paquete:</label>
-            <input type="text" id="id-paquete" name="id-paquete" required>
+            <div class="form-group">
+                <label for="id-paquete">ID del Paquete:</label>
+                <input type="text" id="id-paquete" name="id-paquete" required>
+            </div>
 
-            <input type="hidden" name="_message" value="Gracias por su tiempo, el paquete será recogido.">
+            
 
             <button type="submit" class="btn-enviar">Enviar</button>
         </form>
     </section>
 </body>
 </html>
+
+
